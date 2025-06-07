@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Rally  Real Estate</title>
+  <meta name="description" content="Contact Rally ARY Real Estate in Addis Ababa to schedule a visit or get more information about our luxury developments." />
+  <meta name="keywords" content="Rally ARY Real Estate, contact, luxury property, Addis Ababa, real estate Ethiopia" />
+  <link rel="icon" href="images/photo_2025-05-22_07-41-56.jpg" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+<body class="bg-white text-gray-800">
+  <header class="sticky top-0 z-50 bg-white shadow-md">
+  <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+    <img src="images/photo_2025-05-22_07-41-56.jpg" alt="Rally ARY Logo" class="h-20 w-auto" />
+    <!-- Desktop nav -->
+    <nav id="primary-navigation" class="space-x-6 hidden md:flex" role="navigation" aria-label="Primary Navigation">
+      <a href="home.html" class="text-sm font-medium hover:text-[#1E40AF] focus:outline-none focus:ring-2 focus:ring-blue-600">Home</a>
+      <a href="about.html" class="text-sm font-medium hover:text-[#1E40AF] focus:outline-none focus:ring-2 focus:ring-blue-600">About</a>
+      <a href="project.html" class="text-sm font-medium hover:text-[#1E40AF] focus:outline-none focus:ring-2 focus:ring-blue-600">Projects</a>
+      <a href="Amenities.html" class="text-sm font-medium hover:text-[#1E40AF] focus:outline-none focus:ring-2 focus:ring-blue-600">Amenities</a>
+      <a href="gallery.html" class="text-sm font-medium hover:text-[#1E40AF] focus:outline-none focus:ring-2 focus:ring-blue-600">Gallery</a>
+      <a href="investors.html" class="text-sm font-medium hover:text-[#1E40AF] focus:outline-none focus:ring-2 focus:ring-blue-600">Investors</a>
+      <a href="contact.php" class="text-sm font-medium hover:text-[#1E40AF] focus:outline-none focus:ring-2 focus:ring-blue-600">Contact</a>
+       <a href="Brochers.html"  class="text-sm font-medium hover:text-[#1E40AF] focus:outline-none focus:ring-2 focus:ring-blue-600">Brochers
+      </a>
+    </nav>
+
+    <!-- Mobile hamburger button -->
+    <button id="menu-toggle" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle menu" class="md:hidden focus:outline-none focus:ring-2 focus:ring-blue-600">
+      <svg class="w-8 h-8 text-gray-700" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" >
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16" />
+      </svg>
+    </button>
+  </div>
+
+  <!-- Mobile menu -->
+  <nav id="mobile-menu" class="hidden md:hidden bg-white shadow-md" role="navigation" aria-label="Mobile Primary Navigation">
+    <a href="home.html" class="block px-4 py-3 border-b hover:bg-blue-50 focus:outline-none focus:bg-blue-100">Home</a>
+    <a href="about.html" class="block px-4 py-3 border-b hover:bg-blue-50 focus:outline-none focus:bg-blue-100">About</a>
+    <a href="project.html" class="block px-4 py-3 border-b hover:bg-blue-50 focus:outline-none focus:bg-blue-100">Projects</a>
+    <a href="Amenities.html" class="block px-4 py-3 border-b hover:bg-blue-50 focus:outline-none focus:bg-blue-100">Amenities</a>
+    <a href="gallery.html" class="block px-4 py-3 border-b hover:bg-blue-50 focus:outline-none focus:bg-blue-100">Gallery</a>
+    <a href="investors.html" class="block px-4 py-3 border-b hover:bg-blue-50 focus:outline-none focus:bg-blue-100">Investors</a>
+    <a href="contact.html" class="block px-4 py-3 hover:bg-blue-50 focus:outline-none focus:bg-blue-100">Contact</a>
+      <a href="Brochers.html" class="block px-4 py-3 hover:bg-blue-50 focus:outline-none focus:bg-blue-100">Brochers
+      </a>
+  </nav>
+</header>
+
+<script>
+  const toggleBtn = document.getElementById('menu-toggle');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  toggleBtn.addEventListener('click', () => {
+    const isExpanded = toggleBtn.getAttribute('aria-expanded') === 'true';
+    toggleBtn.setAttribute('aria-expanded', !isExpanded);
+    mobileMenu.classList.toggle('hidden');
+  });
+</script>
+
+<!-- Contact Section with Background Image -->
+<section class="relative bg-center bg-cover bg-no-repeat" style="background-image: url('images/V2_River_Side-9.jpg');">
+  <div class="absolute inset-0 bg-black bg-opacity-30"></div>
+
+
+  <div class="relative max-w-4xl mx-auto px-6 py-24 grid grid-cols-1 md:grid-cols-2 gap-10 text-white z-10">
+    <!-- Contact Info -->
+    <div class="space-y-4">
+      <h2 class="text-4xl font-bold">We’d Love to Hear From You</h2>
+      <p>Reach out for inquiries, collaborations, or to schedule a visit.</p>
+      <p>📍 Atlas Road, Bole, Addis Ababa</p>
+      <p>📞 +251911218607</p>
+      <p>✉️ info@rralyrealestate.com</p>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="bg-white text-gray-800 p-6 rounded-lg shadow-lg">
+      <form action="contact.php" method="POST" class="space-y-4">
+        <div>
+          <label for="name" class="block text-sm font-medium mb-1">Name</label>
+          <input type="text" id="name" name="name" required class="w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-2 focus:ring-blue-600" />
+        </div>
+        <div>
+          <label for="email" class="block text-sm font-medium mb-1">Email</label>
+          <input type="email" id="email" name="email" required class="w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-2 focus:ring-blue-600" />
+        </div>
+        <div>
+          <label for="message" class="block text-sm font-medium mb-1">Message</label>
+          <textarea id="message" name="message" rows="4" required class="w-full border border-gray-300 rounded-md px-3 py-2 focus:ring-2 focus:ring-blue-600"></textarea>
+        </div>
+        <button type="submit" class="w-full bg-blue-700 text-white font-semibold px-4 py-2 rounded hover:bg-blue-800 transition">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+<!-- Footer -->
+  <footer class="bg-white border-t py-10 mt-10">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <p class="text-sm text-gray-500">© 2025 RRALY Real Estate – All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
+

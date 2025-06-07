@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="RRALY Real Estate – Visionary urban development in Addis Ababa, Ethiopia" />
+  <meta name="keywords" content="RRALY Real Estate, Addis Ababa, Ethiopia Real Estate, Luxury Apartments, Urban Development, Mixed-Use Buildings, Sustainable Construction" />
+  <meta name="author" content="RRALY Real Estate" />
+  <meta property="og:title" content="RRALY Real Estate" />
+  <meta property="og:description" content="Visionary urban development in Addis Ababa, Ethiopia. Discover premium real estate projects by RRALY Real Estate." />
+  <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=RRALY+Real+Estate" />
+  <meta property="og:url" content="https://www.rallyrealestate.com" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="robots" content="index, follow" />
+  <title>RRALY Real Estate</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="https://via.placeholder.com/50x50.png?text=Logo" />
+</head>
+<body class="bg-white text-gray-800">
+  <header class="sticky top-0 z-50 bg-white shadow-md">
+  <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+    <img src="images/photo_2025-05-22_07-41-56.jpg" alt="Rally ARY Logo" class="h-20 w-auto" />
+    <!-- Desktop nav -->
+    <nav id="primary-navigation" class="space-x-6 hidden md:flex" role="navigation" aria-label="Primary Navigation">
+      <a href="home.html" class="text-sm font-medium hover:text-[#1E40AF] focus:outline-none focus:ring-2 focus:ring-blue-600">Home</a>
+      <a href="about.html" class="text-sm font-medium hover:text-[#1E40AF] focus:outline-none focus:ring-2 focus:ring-blue-600">About</a>
+      <a href="project.html" class="text-sm font-medium hover:text-[#1E40AF] focus:outline-none focus:ring-2 focus:ring-blue-600">Projects</a>
+      <a href="Amenities.html" class="text-sm font-medium hover:text-[#1E40AF] focus:outline-none focus:ring-2 focus:ring-blue-600">Amenities</a>
+      <a href="gallery.html" class="text-sm font-medium hover:text-[#1E40AF] focus:outline-none focus:ring-2 focus:ring-blue-600">Gallery</a>
+      <a href="investors.html" class="text-sm font-medium hover:text-[#1E40AF] focus:outline-none focus:ring-2 focus:ring-blue-600">Investors</a>
+      <a href="contact.html" class="text-sm font-medium hover:text-[#1E40AF] focus:outline-none focus:ring-2 focus:ring-blue-600">Contact</a>
+       <a href="Brochers.html" class="text-sm font-medium hover:text-[#1E40AF] focus:outline-none focus:ring-2 focus:ring-blue-600">Brochers
+      </a>
+    </nav>
+
+    <!-- Mobile hamburger button -->
+    <button id="menu-toggle" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle menu" class="md:hidden focus:outline-none focus:ring-2 focus:ring-blue-600">
+      <svg class="w-8 h-8 text-gray-700" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" >
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16" />
+      </svg>
+    </button>
+  </div>
+
+  <!-- Mobile menu -->
+  <nav id="mobile-menu" class="hidden md:hidden bg-white shadow-md" role="navigation" aria-label="Mobile Primary Navigation">
+    <a href="home.html" class="block px-4 py-3 border-b hover:bg-blue-50 focus:outline-none focus:bg-blue-100">Home</a>
+    <a href="about.html" class="block px-4 py-3 border-b hover:bg-blue-50 focus:outline-none focus:bg-blue-100">About</a>
+    <a href="project.html" class="block px-4 py-3 border-b hover:bg-blue-50 focus:outline-none focus:bg-blue-100">Projects</a>
+    <a href="Amenities.html" class="block px-4 py-3 border-b hover:bg-blue-50 focus:outline-none focus:bg-blue-100">Amenities</a>
+    <a href="gallery.html" class="block px-4 py-3 border-b hover:bg-blue-50 focus:outline-none focus:bg-blue-100">Gallery</a>
+    <a href="investors.html" class="block px-4 py-3 border-b hover:bg-blue-50 focus:outline-none focus:bg-blue-100">Investors</a>
+    <a href="contact.html" class="block px-4 py-3 hover:bg-blue-50 focus:outline-none focus:bg-blue-100">Contact</a>
+     <a href="Brochers.html" class="block px-4 py-3 hover:bg-blue-50 focus:outline-none focus:bg-blue-100">Brochers
+      </a>
+  </nav>
+</header>
+
+<script>
+  const toggleBtn = document.getElementById('menu-toggle');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  toggleBtn.addEventListener('click', () => {
+    const isExpanded = toggleBtn.getAttribute('aria-expanded') === 'true';
+    toggleBtn.setAttribute('aria-expanded', !isExpanded);
+    mobileMenu.classList.toggle('hidden');
+  });
+</script>
+
+
+  <!-- Hero Section -->
+  <section class="relative h-[80vh] flex items-center justify-center text-center text-white">
+    <!-- Background Image -->
+    <img
+      src="images/a1-addis-sheger-river-yohannes-minas_2.jpg"
+      alt="Cityscape"
+      class="absolute inset-0 w-full h-full object-cover brightness-70"
+    />
+
+    <!-- Overlay -->
+    <div
+      class="relative z-10 bg-black bg-opacity-40 p-8 rounded-xl max-w-4xl mx-auto"
+    >
+      <h1 class="text-4xl md:text-6xl font-extrabold mb-4 drop-shadow-lg text-[#b78c3d]">
+        Visionary Real Estate Development in Addis Ababa
+      </h1>
+      <a
+        href="project.html"
+        class="mt-4 inline-block bg-[#1E40AF] hover:bg-[#D9B38C] hover:text-blue-900 text-white px-6 py-3 rounded-lg text-lg font-semibold drop-shadow-md transition"
+      >
+        Explore Projects
+      </a>
+    </div>
+  </section>
+
+  <!-- About Us -->
+  <section id="about" class="max-w-6xl mx-auto px-4 py-16">
+    <h2 class="text-3xl font-bold mb-6 text-[#1E40AF]">About Us</h2>
+    <p class="text-lg leading-relaxed">
+      RRALY Real Estate is a family-managed, premium real estate company
+      based on Atlas Road, Bole—at the heart of Addis Ababa, Ethiopia. A proud
+      sister company to RANG Real Estate, we bring a new perspective to the
+      country’s real estate market, shaped by years of international experience
+      across Europe, the U.S., and beyond.
+    </p>
+  </section>
+
+  <!-- Our Vision -->
+  <section id="vision" class="bg-gray-100 py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-6 text-[#1E40AF]">Our Vision</h2>
+      <p class="text-lg leading-relaxed">
+        We aim to redefine urban development by delivering top-tier, mixed-use
+        properties that merge luxury, functionality, and sustainability. RRALY is not just building structures—we're creating lifestyle-driven
+        communities that elevate Addis Ababa’s skyline and support economic
+        growth.
+      </p>
+    </div>
+  </section>
+
+  <!-- Key Highlights from PowerPoint -->
+  <section id="highlights" class="max-w-6xl mx-auto px-4 py-16 bg-white">
+    <h2 class="text-3xl font-bold mb-6 text-[#1E40AF]">Key Highlights</h2>
+    <ul class="list-disc list-inside text-gray-800 text-lg space-y-2">
+      <li>Family-managed real estate company with international experience.</li>
+      <li>Focus on sustainable urban development integrating modern aesthetics.</li>
+      <li>Commitment to creating lifestyle-driven communities supporting economic growth.</li>
+      <li>Flagship project: Riverside Mixed-Use Complex combining residential, retail, and office spaces.</li>
+      <li>World-class amenities including 24/7 security, fiber-optic internet, and fitness centers.</li>
+    </ul>
+  </section>
+
+  <!-- Upcoming Projects -->
+  <section id="projects" class="max-w-6xl mx-auto px-4 py-16">
+    <h2 class="text-3xl font-bold mb-6 text-[#1E40AF]">Upcoming Projects</h2>
+    <div class="bg-white border rounded-lg p-6 shadow-md">
+      <h3 class="text-xl font-semibold mb-2 text-[#D9B38C]">
+        Flagship Development: Riverside Mixed-Use Complex
+      </h3>
+      <ul class="list-disc ml-6 text-gray-700">
+        <li>Located near the scenic riverside in Atlas</li>
+        <li>Combining high-end residential, office, and retail spaces</li>
+        <li>Designed with modern aesthetics and global standards</li>
+        <li>Green space, cafes, and community areas integrated throughout</li>
+        <li>Coming soon – Addis Ababa’s future landmark destination</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Amenities -->
+  <section id="amenities" class="bg-gray-100 py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-3xl font-bold mb-6 text-[#1E40AF]">World-Class Amenities</h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 text-gray-700">
+        <div>✅ 24/7 Security & Surveillance</div>
+        <div>✅ High-Speed Elevators</div>
+        <div>✅ Underground Parking</div>
+        <div>✅ Backup Power Generators</div>
+        <div>✅ Fiber-Optic Internet</div>
+        <div>✅ Green Outdoor Courtyards</div>
+        <div>✅ Onsite Café & Restaurants</div>
+        <div>✅ Fitness & Wellness Center</div>
+        <div>✅ Conference Rooms</div>
+        <div>✅ Central Air Conditioning</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="bg-white border-t py-10 mt-10">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-4 text-[#1E40AF]">Contact Us</h2>
+      <p class="mb-1">RRALY Real Estate</p>
+      <p class="mb-1">Atlas Road, Bole, Addis Ababa, Ethiopia</p>
+      <p class="mb-1">📞+251911218607</p>
+      <p class="mb-1">✉️ info@rralyrealestate.com</p>
+      <p class="text-sm text-gray-500 mt-4">© 2025 RRALY Real Estate | Elevating Urban Living</p>
+    </div>
+  </footer>
+</body>
+</html>
